@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF688D6AFBC90E5150E1CCE /* Pods_Meatspace_v2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E65B98188B60D92976B6FE /* Pods_Meatspace_v2Tests.framework */; };
+		8086234329AC14E84418D0EC /* Pods_Meatspace_v2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD194F831C7C3481AE9C6B9 /* Pods_Meatspace_v2.framework */; };
+		CE80CF4C23F9984400B4E107 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80CF4B23F9984400B4E107 /* PersistenceService.swift */; };
+		CE80CF4F23F9986D00B4E107 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE80CF4D23F9986C00B4E107 /* CoreDataModel.xcdatamodeld */; };
+		CEFCAA1923F9685F0017E2A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCAA1823F9685F0017E2A3 /* AppDelegate.swift */; };
+		CEFCAA1B23F9685F0017E2A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCAA1A23F9685F0017E2A3 /* ViewController.swift */; };
+		CEFCAA2023F968600017E2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFCAA1F23F968600017E2A3 /* Assets.xcassets */; };
+		CEFCAA2323F968610017E2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFCAA2123F968610017E2A3 /* LaunchScreen.storyboard */; };
+		CEFCAA2E23F968610017E2A3 /* Meatspace_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCAA2D23F968610017E2A3 /* Meatspace_v2Tests.swift */; };
+		CEFCAA3923F968610017E2A3 /* Meatspace_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCAA3823F968610017E2A3 /* Meatspace_v2UITests.swift */; };
+		CEFCAA4723F968C60017E2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFCAA4623F968C60017E2A3 /* Main.storyboard */; };
+		CEFCAA4923F968F70017E2A3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCAA4823F968F70017E2A3 /* loginViewController.swift */; };
+		CEFCAA4B23F96BBB0017E2A3 /* httprequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCAA4A23F96BBB0017E2A3 /* httprequest.swift */; };
+		D0165ED15D7C23B17CBC1389 /* Pods_Meatspace_v2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFF84E02E3CF46F1A8DB9C4 /* Pods_Meatspace_v2UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFCAA2A23F968610017E2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFCAA0D23F9685F0017E2A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFCAA1423F9685F0017E2A3;
+			remoteInfo = Meatspace_v2;
+		};
+		CEFCAA3523F968610017E2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFCAA0D23F9685F0017E2A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFCAA1423F9685F0017E2A3;
+			remoteInfo = Meatspace_v2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9A667A8B3AA7EF530FB107 /* Pods-Meatspace_v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatspace_v2.release.xcconfig"; path = "Target Support Files/Pods-Meatspace_v2/Pods-Meatspace_v2.release.xcconfig"; sourceTree = "<group>"; };
+		1DD194F831C7C3481AE9C6B9 /* Pods_Meatspace_v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meatspace_v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFF84E02E3CF46F1A8DB9C4 /* Pods_Meatspace_v2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meatspace_v2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6801496BD8729D5AC7FCE0B7 /* Pods-Meatspace_v2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatspace_v2Tests.release.xcconfig"; path = "Target Support Files/Pods-Meatspace_v2Tests/Pods-Meatspace_v2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E9B7B22B4D86532EE461338 /* Pods-Meatspace_v2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatspace_v2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Meatspace_v2Tests/Pods-Meatspace_v2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81E65B98188B60D92976B6FE /* Pods_Meatspace_v2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meatspace_v2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92CC36432F588FCABA26585 /* Pods-Meatspace_v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatspace_v2.debug.xcconfig"; path = "Target Support Files/Pods-Meatspace_v2/Pods-Meatspace_v2.debug.xcconfig"; sourceTree = "<group>"; };
+		CE80CF4B23F9984400B4E107 /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		CE80CF4E23F9986C00B4E107 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
+		CEFCAA1523F9685F0017E2A3 /* Meatspace_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meatspace_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCAA1823F9685F0017E2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFCAA1A23F9685F0017E2A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFCAA1F23F968600017E2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFCAA2223F968610017E2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFCAA2423F968610017E2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCAA2923F968610017E2A3 /* Meatspace_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Meatspace_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCAA2D23F968610017E2A3 /* Meatspace_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meatspace_v2Tests.swift; sourceTree = "<group>"; };
+		CEFCAA2F23F968610017E2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCAA3423F968610017E2A3 /* Meatspace_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Meatspace_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCAA3823F968610017E2A3 /* Meatspace_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meatspace_v2UITests.swift; sourceTree = "<group>"; };
+		CEFCAA3A23F968610017E2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCAA4623F968C60017E2A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CEFCAA4823F968F70017E2A3 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		CEFCAA4A23F96BBB0017E2A3 /* httprequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httprequest.swift; sourceTree = "<group>"; };
+		D9E234EE55C3495EC4D9AA1A /* Pods-Meatspace_v2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatspace_v2UITests.release.xcconfig"; path = "Target Support Files/Pods-Meatspace_v2UITests/Pods-Meatspace_v2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBD2CE5E76CE3AC776E73A91 /* Pods-Meatspace_v2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatspace_v2UITests.debug.xcconfig"; path = "Target Support Files/Pods-Meatspace_v2UITests/Pods-Meatspace_v2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFCAA1223F9685F0017E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8086234329AC14E84418D0EC /* Pods_Meatspace_v2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCAA2623F968610017E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF688D6AFBC90E5150E1CCE /* Pods_Meatspace_v2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCAA3123F968610017E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0165ED15D7C23B17CBC1389 /* Pods_Meatspace_v2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFCAA0C23F9685F0017E2A3 = {
+			isa = PBXGroup;
+			children = (
+				CEFCAA1723F9685F0017E2A3 /* Meatspace_v2 */,
+				CEFCAA2C23F968610017E2A3 /* Meatspace_v2Tests */,
+				CEFCAA3723F968610017E2A3 /* Meatspace_v2UITests */,
+				CEFCAA1623F9685F0017E2A3 /* Products */,
+				E166549940D9B13ED629F792 /* Pods */,
+				DA792074F19C38E847413884 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFCAA1623F9685F0017E2A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCAA1523F9685F0017E2A3 /* Meatspace_v2.app */,
+				CEFCAA2923F968610017E2A3 /* Meatspace_v2Tests.xctest */,
+				CEFCAA3423F968610017E2A3 /* Meatspace_v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFCAA1723F9685F0017E2A3 /* Meatspace_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCAA1823F9685F0017E2A3 /* AppDelegate.swift */,
+				CEFCAA1A23F9685F0017E2A3 /* ViewController.swift */,
+				CEFCAA4823F968F70017E2A3 /* loginViewController.swift */,
+				CE80CF4B23F9984400B4E107 /* PersistenceService.swift */,
+				CEFCAA4A23F96BBB0017E2A3 /* httprequest.swift */,
+				CE80CF4D23F9986C00B4E107 /* CoreDataModel.xcdatamodeld */,
+				CEFCAA4623F968C60017E2A3 /* Main.storyboard */,
+				CEFCAA1F23F968600017E2A3 /* Assets.xcassets */,
+				CEFCAA2123F968610017E2A3 /* LaunchScreen.storyboard */,
+				CEFCAA2423F968610017E2A3 /* Info.plist */,
+			);
+			path = Meatspace_v2;
+			sourceTree = "<group>";
+		};
+		CEFCAA2C23F968610017E2A3 /* Meatspace_v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCAA2D23F968610017E2A3 /* Meatspace_v2Tests.swift */,
+				CEFCAA2F23F968610017E2A3 /* Info.plist */,
+			);
+			path = Meatspace_v2Tests;
+			sourceTree = "<group>";
+		};
+		CEFCAA3723F968610017E2A3 /* Meatspace_v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCAA3823F968610017E2A3 /* Meatspace_v2UITests.swift */,
+				CEFCAA3A23F968610017E2A3 /* Info.plist */,
+			);
+			path = Meatspace_v2UITests;
+			sourceTree = "<group>";
+		};
+		DA792074F19C38E847413884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD194F831C7C3481AE9C6B9 /* Pods_Meatspace_v2.framework */,
+				81E65B98188B60D92976B6FE /* Pods_Meatspace_v2Tests.framework */,
+				2BFF84E02E3CF46F1A8DB9C4 /* Pods_Meatspace_v2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E166549940D9B13ED629F792 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A92CC36432F588FCABA26585 /* Pods-Meatspace_v2.debug.xcconfig */,
+				1B9A667A8B3AA7EF530FB107 /* Pods-Meatspace_v2.release.xcconfig */,
+				7E9B7B22B4D86532EE461338 /* Pods-Meatspace_v2Tests.debug.xcconfig */,
+				6801496BD8729D5AC7FCE0B7 /* Pods-Meatspace_v2Tests.release.xcconfig */,
+				FBD2CE5E76CE3AC776E73A91 /* Pods-Meatspace_v2UITests.debug.xcconfig */,
+				D9E234EE55C3495EC4D9AA1A /* Pods-Meatspace_v2UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFCAA1423F9685F0017E2A3 /* Meatspace_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCAA3D23F968610017E2A3 /* Build configuration list for PBXNativeTarget "Meatspace_v2" */;
+			buildPhases = (
+				F32B0580D7E4DFEC0D31D6B3 /* [CP] Check Pods Manifest.lock */,
+				CEFCAA1123F9685F0017E2A3 /* Sources */,
+				CEFCAA1223F9685F0017E2A3 /* Frameworks */,
+				CEFCAA1323F9685F0017E2A3 /* Resources */,
+				36D44AF0C219A64997B7835D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meatspace_v2;
+			productName = Meatspace_v2;
+			productReference = CEFCAA1523F9685F0017E2A3 /* Meatspace_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFCAA2823F968610017E2A3 /* Meatspace_v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCAA4023F968610017E2A3 /* Build configuration list for PBXNativeTarget "Meatspace_v2Tests" */;
+			buildPhases = (
+				53A1BA29ADC3ABC5F4D6FD1C /* [CP] Check Pods Manifest.lock */,
+				CEFCAA2523F968610017E2A3 /* Sources */,
+				CEFCAA2623F968610017E2A3 /* Frameworks */,
+				CEFCAA2723F968610017E2A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFCAA2B23F968610017E2A3 /* PBXTargetDependency */,
+			);
+			name = Meatspace_v2Tests;
+			productName = Meatspace_v2Tests;
+			productReference = CEFCAA2923F968610017E2A3 /* Meatspace_v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFCAA3323F968610017E2A3 /* Meatspace_v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCAA4323F968610017E2A3 /* Build configuration list for PBXNativeTarget "Meatspace_v2UITests" */;
+			buildPhases = (
+				2B8B8BA6A1C6E12E400ED926 /* [CP] Check Pods Manifest.lock */,
+				CEFCAA3023F968610017E2A3 /* Sources */,
+				CEFCAA3123F968610017E2A3 /* Frameworks */,
+				CEFCAA3223F968610017E2A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFCAA3623F968610017E2A3 /* PBXTargetDependency */,
+			);
+			name = Meatspace_v2UITests;
+			productName = Meatspace_v2UITests;
+			productReference = CEFCAA3423F968610017E2A3 /* Meatspace_v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFCAA0D23F9685F0017E2A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEFCAA1423F9685F0017E2A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEFCAA2823F968610017E2A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEFCAA1423F9685F0017E2A3;
+					};
+					CEFCAA3323F968610017E2A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEFCAA1423F9685F0017E2A3;
+					};
+				};
+			};
+			buildConfigurationList = CEFCAA1023F9685F0017E2A3 /* Build configuration list for PBXProject "Meatspace_v2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFCAA0C23F9685F0017E2A3;
+			productRefGroup = CEFCAA1623F9685F0017E2A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFCAA1423F9685F0017E2A3 /* Meatspace_v2 */,
+				CEFCAA2823F968610017E2A3 /* Meatspace_v2Tests */,
+				CEFCAA3323F968610017E2A3 /* Meatspace_v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFCAA1323F9685F0017E2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCAA2323F968610017E2A3 /* LaunchScreen.storyboard in Resources */,
+				CEFCAA2023F968600017E2A3 /* Assets.xcassets in Resources */,
+				CEFCAA4723F968C60017E2A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCAA2723F968610017E2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCAA3223F968610017E2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B8B8BA6A1C6E12E400ED926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meatspace_v2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D44AF0C219A64997B7835D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meatspace_v2/Pods-Meatspace_v2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meatspace_v2/Pods-Meatspace_v2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meatspace_v2/Pods-Meatspace_v2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A1BA29ADC3ABC5F4D6FD1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meatspace_v2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32B0580D7E4DFEC0D31D6B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meatspace_v2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFCAA1123F9685F0017E2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80CF4C23F9984400B4E107 /* PersistenceService.swift in Sources */,
+				CEFCAA1B23F9685F0017E2A3 /* ViewController.swift in Sources */,
+				CE80CF4F23F9986D00B4E107 /* CoreDataModel.xcdatamodeld in Sources */,
+				CEFCAA4B23F96BBB0017E2A3 /* httprequest.swift in Sources */,
+				CEFCAA1923F9685F0017E2A3 /* AppDelegate.swift in Sources */,
+				CEFCAA4923F968F70017E2A3 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCAA2523F968610017E2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCAA2E23F968610017E2A3 /* Meatspace_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCAA3023F968610017E2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCAA3923F968610017E2A3 /* Meatspace_v2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFCAA2B23F968610017E2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFCAA1423F9685F0017E2A3 /* Meatspace_v2 */;
+			targetProxy = CEFCAA2A23F968610017E2A3 /* PBXContainerItemProxy */;
+		};
+		CEFCAA3623F968610017E2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFCAA1423F9685F0017E2A3 /* Meatspace_v2 */;
+			targetProxy = CEFCAA3523F968610017E2A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFCAA2123F968610017E2A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFCAA2223F968610017E2A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFCAA3B23F968610017E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFCAA3C23F968610017E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFCAA3E23F968610017E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92CC36432F588FCABA26585 /* Pods-Meatspace_v2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meatspace_v2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "null.Meatspace-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFCAA3F23F968610017E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9A667A8B3AA7EF530FB107 /* Pods-Meatspace_v2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meatspace_v2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "null.Meatspace-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFCAA4123F968610017E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9B7B22B4D86532EE461338 /* Pods-Meatspace_v2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meatspace_v2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "null.Meatspace-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meatspace_v2.app/Meatspace_v2";
+			};
+			name = Debug;
+		};
+		CEFCAA4223F968610017E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6801496BD8729D5AC7FCE0B7 /* Pods-Meatspace_v2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meatspace_v2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "null.Meatspace-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meatspace_v2.app/Meatspace_v2";
+			};
+			name = Release;
+		};
+		CEFCAA4423F968610017E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD2CE5E76CE3AC776E73A91 /* Pods-Meatspace_v2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meatspace_v2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "null.Meatspace-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meatspace_v2;
+			};
+			name = Debug;
+		};
+		CEFCAA4523F968610017E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E234EE55C3495EC4D9AA1A /* Pods-Meatspace_v2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meatspace_v2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "null.Meatspace-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meatspace_v2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFCAA1023F9685F0017E2A3 /* Build configuration list for PBXProject "Meatspace_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCAA3B23F968610017E2A3 /* Debug */,
+				CEFCAA3C23F968610017E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCAA3D23F968610017E2A3 /* Build configuration list for PBXNativeTarget "Meatspace_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCAA3E23F968610017E2A3 /* Debug */,
+				CEFCAA3F23F968610017E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCAA4023F968610017E2A3 /* Build configuration list for PBXNativeTarget "Meatspace_v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCAA4123F968610017E2A3 /* Debug */,
+				CEFCAA4223F968610017E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCAA4323F968610017E2A3 /* Build configuration list for PBXNativeTarget "Meatspace_v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCAA4423F968610017E2A3 /* Debug */,
+				CEFCAA4523F968610017E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE80CF4D23F9986C00B4E107 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE80CF4E23F9986C00B4E107 /* User.xcdatamodel */,
+			);
+			currentVersion = CE80CF4E23F9986C00B4E107 /* User.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFCAA0D23F9685F0017E2A3 /* Project object */;
+}
